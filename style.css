@@ -1,0 +1,81 @@
+.menu {
+
+    display: flex;
+    justify-content: space-between ;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Zen Tokyo Zoo';
+    font-weight: 400;
+    color: #d1c028;
+}
+.header {
+    border: solid;
+}
+body {
+    margin: 0px;
+    background-color: #c28c3a;
+    
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami{
+  
+    border-radius: 20px;
+    background-color: #ffffffc5;
+    padding: 30px;
+    margin: 55px;
+    width: 310px;
+    font-family: fantasy;
+    
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+li{
+    font-family: 'Great Vibes', cursive;
+
+}
+
+a:link{
+    color: #b68723;
+}
+a:visited{
+    color: #7fff00;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.bodyimg{
+    position: relative;
+}
+
+.bodyimg p{
+    color: #f0d01b;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+a{
+    text-decoration: none;
+}
